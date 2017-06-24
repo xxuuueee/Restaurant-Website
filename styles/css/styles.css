@@ -837,9 +837,8 @@ body{
 }
 
 
-
-#social{
-  float:right;
+.panel-footer{
+  height:200px;
 }
 
 
