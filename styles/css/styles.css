@@ -183,6 +183,8 @@ body{
 .active {
 	
     height: 80vh;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
 .carousel-inner {
@@ -836,6 +838,12 @@ body{
 
 }
 
+.map iframe{
+  height:220px;
+  width:220px;
+  position: center;
+  margin-top: 40px;
+}
 
 .panel-footer{
   height:200px;
