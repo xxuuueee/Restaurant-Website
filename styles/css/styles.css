@@ -1,0 +1,854 @@
+/**body, h1, h2, h3, h4, h5, h6, p, div, ul , li{ 
+	margin: 0;
+	padding: 0;
+}**/
+
+body{
+	height:100%;
+	font-size: 16px;
+	background-color: #61122f;	
+	font-family: 'Oxygen', sans-serif;
+  
+}
+
+
+/**header**/
+#header-nav{
+	background: url('../Images/salon_bright_blur_cropped.jpg');
+	border-radius: 0;
+  	border: 0;
+ 	
+}
+
+/**#brand{
+  margin-bottom: 10px;
+}**/
+.navbar-brand {
+  padding-top: 25px;
+
+}
+
+.navbar-brand h1{ /* Restaurant name */
+  font-family: 'Lora', serif;
+  color: #61122f;
+  font-size: 2.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+
+#chinese{
+  font-family: 'Lora', serif;
+  margin-top: 0;
+  margin-left:60px;
+  color: #61122f;
+  text-shadow: 1px 1px 1px #222;
+}
+
+ h5{
+  font-family: 'Lora', serif;
+  color: #61122f;
+  margin-top: 0;
+  
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+ }
+
+/*DECORATION FOR NAVIGATION BRAND*/
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+/*DECORATION FOR THE ICON OPTIONS ON NAVIGATION BAR*/
+#nav-list{
+	margin-bottom: 15px; 
+}
+
+#nav-list a {
+  color: #951C49;
+  text-align: center;
+}
+
+#nav-list a:hover{
+  background: #f9a62a;
+}
+
+#nav-list a span {
+  font-size: 1.8em;
+}
+
+#phone {
+  margin-top: 5px;
+}
+
+#phone a { /* Phone number */
+  text-align: right;
+  padding-bottom: 0;
+}
+
+#phone div { /* We Deliver */
+  color: #61122f;
+  text-align: right;
+  padding-right: 15px;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #61122f;
+}
+
+.navbar-header button.navbar-toggle {
+  clear: both;
+  
+}
+
+
+.dropdown-menu{
+  display: none;
+    position: absolute;
+  background-color: #f9a62a;
+  min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-menu a{
+  padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown-menu a:hover{
+  background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-menu{
+  display:block;
+}
+
+#divHeader{
+	width: 900px;
+	height: 170px;
+	text-align:center;
+	font-family: Verdana, Geneva, sans-serif;
+}
+/*END OF HEADER*/
+
+/* FOOTER */
+.panel-footer {
+  /*background:url('../Images/salon_bright_blur_cropped.jpg');*/
+  height: 200px;
+  background:#f69640;
+}
+
+
+
+
+
+
+
+#about,#horas, #direccion p {
+  color: #000000;
+  font-size: .9em;
+  
+}
+
+
+#social{
+  color:white;
+  font-size: .8em;
+}
+
+.fa-facebook {
+  padding: 10px;
+  font-size: 30px;
+  width: 50px;
+  height:50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 10%;
+  background: #3B5998;
+  color: white;
+}
+
+/* END FOOTER */
+
+
+/*HOME PAGE*/
+.carousel,
+.item,
+.active {
+	
+    height: 80vh;
+}
+
+.carousel-inner {
+	position:absolute;
+	margin-top: 130px;
+    height: 80vh;
+    border: 2px solid #3F0C1F;
+}
+
+/*MENU PAGE*/
+#title_main{
+  margin-top: 130px;
+  font-family: 'Lora', serif;
+  text-align: center;
+  text-shadow: 1px 1px 1px #222;
+  color:  #f69640;
+  font-size: 2vw;
+}
+
+#main{
+  margin-top: 30px;
+  font-family: 'Lora', serif;
+  text-align: center;
+  text-shadow: 1px 1px 1px #222;
+  color:  #f69640;
+  font-size: 2vw;
+}
+
+#m1, #m2, #m3 {
+
+  height: 300px;
+  width: 100%;
+  margin-bottom: 15px;
+  text-align: center;
+  
+  overflow: hidden;
+}
+
+#m4{
+  height: 100%;
+  width: 100%;
+  margin-bottom: 15px;
+  text-align: center;
+  
+  overflow: hidden;
+}
+
+#m1{
+  background-color: #ffcc66;
+}
+
+#m2{
+  background-color: #ffcc66;
+}
+
+#m3{
+  background-color: #ffcc66;
+}
+
+#m4{
+  background-color: #ffcc66;
+}
+
+#m1 span, #m2 span, #m3 span {
+  width: 100%;
+  font-family: 'Lora', serif;
+  text-align: center;
+  font-size: 1.3em;
+  font-weight: bold;
+  color:#61122f;
+  opacity: .8;
+}
+
+#p2{
+  color:#000000;
+  font-size: 1.2vw;
+  text-align: center;
+  margin: 10px 10px 10px 10px;
+  list-style-type: none;
+}
+
+#p3{
+  color:#000000;
+  font-size: 1.2vw;
+  text-align: left;
+  margin: 10px 10px 10px 10px;
+  list-style-type: none;
+}
+
+#description{
+  width:80%;
+
+}
+
+#price{
+  color:#000000;
+  float:right;
+  font-size: 1.2vw;
+  text-align: right;
+  margin-top: 80px;
+  width: 20%;
+}
+
+#carta_p{
+  color:#000000;
+  float:right;
+  font-size: 1.2vw;
+  text-align: right;
+  width: 20%;
+  margin-bottom: 15px;
+
+}
+
+#note{
+  font-size:1.2vw;
+  text-align: center;
+  margin-left: 50px;
+  
+
+}
+
+
+/*Map page*/
+#divContactContent{
+  margin-top: 130px;
+  font-family: 'Lora', serif;
+  text-align: center;
+  text-shadow: 1px 1px 1px #222;
+  color:  #f69640;
+}
+
+#contenido{
+ width:100%;
+ height:400px;
+ background-color: #ffcc66;
+ text-align: center;
+  overflow: hidden;
+  margin-bottom: 15px;
+}
+
+#contenido span{
+  width:100%;
+  font-family: 'Lora', serif;
+  float: left;
+  text-shadow: 1px 1px 1px #222;
+  color:  #61122f;
+  font-size: 30px;
+}
+
+
+
+#letras{
+  width:50%;
+  color:#61122f;
+  margin-top: 15px;
+  float:left;
+
+}
+
+#map{
+  width:50%;
+  float:right;
+  margin-top: 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Background images are set within the HTML using inline CSS, not here */
+
+.fill {
+    width: 100%;
+    height:80vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+   
+    
+}
+
+.carousel-control{
+	margin-top: 130px;
+	height:80vh;
+}
+
+/* Makes images fully responsive */
+
+.img-responsive,
+.thumbnail > img,
+.thumbnail a > img,
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+  width: 100%;
+  height: 80vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  border: 2px solid #3F0C1F;
+}
+
+.carousel-caption{
+	font-family: 'Lora', serif;
+	position: center center;
+	color: white;
+	text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+}
+
+#menu-tile, #map-tile {
+  height: 250px;
+  width: 100%;
+  margin-bottom: 15px;
+  margin-top: 150px;
+  position: relative;
+  border: 2px solid #3F0C1F;
+  overflow: hidden;
+}
+
+#menu-tile:hover, #map-tile:hover {
+  box-shadow: 0 1px 5px 1px #cccccc;
+}
+
+#menu-tile {
+  background: url('../Images/comida6.jpg') no-repeat;
+  background-position: center;
+
+}
+
+#menu-tile span,  #map-tile span {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 1.6em;
+  text-transform: uppercase;
+  background-color: #000;
+  color: #fff;
+  opacity: .8;
+}
+
+
+
+
+/***LARGE DEVICES***/
+@media(min-width: 1200px){
+
+  
+
+#chinese{
+  font-size: 2vw;
+}
+
+  h5{
+    font-size: 1.2vw;
+  }
+
+  #social{
+  float:right;
+}
+
+}
+
+/***MEDIUM DEVICES***/
+@media(min-width:992px) and (max-width:1199px){
+
+#brand{
+  width:98%;
+}
+.navbar-brand h1{ /* Restaurant name */
+  font-family: 'Lora', serif;
+  color: #61122f;
+  font-size: 1.8em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+
+#chinese{
+  margin-left: 30px;
+  font-size:1.5em;
+}
+
+
+
+
+#m1, #m2, #m3 {
+
+  height: 350px;
+  width: 100%;
+  margin-bottom: 15px;
+  text-align: center;
+  
+  overflow: hidden;
+}
+#title_main{
+  margin-top: 130px;
+  font-family: 'Lora', serif;
+  text-align: center;
+  text-shadow: 1px 1px 1px #222;
+  color:  #f69640;
+  font-size: 2.5vw;
+}
+
+#main{
+  margin-top: 30px;
+  font-family: 'Lora', serif;
+  text-align: center;
+  text-shadow: 1px 1px 1px #222;
+  color:  #f69640;
+  font-size: 2.5vw;
+}
+
+#p2{
+  color:#000000;
+  font-size: 1.5vw;
+  text-align: center;
+  margin: 10px 10px 10px 10px;
+  list-style-type: none;
+}
+
+#p3{
+  color:#000000;
+  font-size: 1.5vw;
+  text-align: left;
+  margin: 10px 10px 10px 10px;
+  list-style-type: none;
+}
+
+#price{
+  color:#000000;
+  float:right;
+  font-size: 1.5vw;
+  text-align: right;
+  margin-top: 80px;
+  width: 20%;
+}
+
+#carta_p{
+  color:#000000;
+  float:right;
+  font-size: 1.5vw;
+  text-align: right;
+  width: 20%;
+  margin-bottom: 15px;
+
+}
+
+}
+
+
+
+/***SMALL DEVICES***/
+@media(min-width: 768px) and (max-width: 991px){
+
+	#brand{
+		width:98%;
+
+	}
+	
+	.navbar-brand h1{ /* Restaurant name */
+		font-family: 'Lora', serif;
+		color: #61122f;
+		font-size: 3.8vw;
+		text-transform: uppercase;
+		font-weight: bold;
+		text-shadow: 1px 1px 1px #222;
+		margin-top: 0;
+		margin-bottom: 0;
+		line-height: .75;
+		}
+
+  #chinese{
+    font-size: 2.8vw;
+  }
+
+	h5{
+		font-family: 'Lora', serif;
+		color: #61122f;
+		font-size: 1.3vw;
+		text-transform: uppercase;
+		font-weight: bold;
+		text-shadow: 1px 1px 1px #222;
+		line-height: .75;
+
+	}
+
+	#nav-list a span {
+		font-size: 2.5vw;
+		}
+
+	#phone div{
+		color: #61122f;
+	  text-align: right;
+	  padding-right: 8px;
+	  font-size: 1.1vw;
+	}
+
+	#main-content{
+		width:95%;
+	}
+
+	#menu-tile{
+		width:207%;
+		background: url('../Images/menu1.jpg') no-repeat;
+  		background-position: center;
+  		margin-top: 190px;
+
+	}
+
+	#map-tile {
+		margin-top:30px;
+
+}
+
+
+
+
+
+#title_main{
+  margin-top: 130px;
+  font-family: 'Lora', serif;
+  text-align: center;
+  text-shadow: 1px 1px 1px #222;
+  color:  #f69640;
+  font-size: 2.8vw;
+}
+
+#main{
+  margin-top: 30px;
+  font-family: 'Lora', serif;
+  text-align: center;
+  text-shadow: 1px 1px 1px #222;
+  color:  #f69640;
+  font-size: 2.8vw;
+}
+
+#p2{
+  color:#000000;
+  font-size: 1.8vw;
+  text-align: center;
+  margin: 10px 10px 10px 10px;
+  list-style-type: none;
+}
+
+#p3{
+  color:#000000;
+  font-size: 1.8vw;
+  text-align: left;
+  margin: 10px 10px 10px 10px;
+  list-style-type: none;
+}
+
+#price{
+  color:#000000;
+  float:right;
+  font-size: 1.8vw;
+  text-align: right;
+  margin-top: 80px;
+  width: 20%;
+}
+
+#carta_p{
+  color:#000000;
+  float:right;
+  font-size: 1.8vw;
+  text-align: right;
+  width: 20%;
+  margin-bottom: 15px;
+
+}
+
+
+
+
+
+	
+
+}
+
+/***EXTRA SMALL DEVICES***/
+@media(max-width:767px){
+
+  #brand{
+  margin-bottom: 0;
+}
+	.navbar-brand{
+		padding-top: 20px;
+		height:50px;
+	}
+	.navbar-brand h1{ /* Restaurant name */
+		font-family: 'Lora', serif;
+		color: #61122f;
+		font-size: 4.5vw;
+		text-transform: uppercase;
+		font-weight: bold;
+		text-shadow: 1px 1px 1px #222;
+		margin-top: 0;
+		margin-bottom: 0;
+		line-height: .75;
+		}
+
+  
+	h5{
+		font-family: 'Lora', serif;
+		color: #61122f;
+		font-size: 1.3vw;
+		text-transform: uppercase;
+		font-weight: bold;
+		text-shadow: 1px 1px 1px #222;
+		line-height: .75;
+    margin-top: 10px;
+
+	}
+
+	#collapsable-nav a{ /*collapsable menu item*/
+ 	font-size: 1.2em;
+ }
+
+ 	#collapsable-nav a span{ /*specificity elment followed by element*/
+  	font-size:1em;
+  	margin-right: 10px;
+  	}
+
+	
+
+  #call-btn > a {
+    font-size: 1.5em;
+    display: block;
+    margin: 180px 20px 0px 20px;
+    padding: 10px;
+    border: 2px solid #fff;
+    background: url('../Images/salon_bright_blur_cropped.jpg');
+    color: #61122f;
+  }
+
+  #xs-deliver {
+    margin-top: 0px;
+    font-size: .7em;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+    color: white;
+  }
+
+
+  .carousel-inner {
+	position:absolute;
+	margin-top: 15px;
+	margin-bottom: 20px;
+    height: 80vh;
+}
+
+.carousel-control{
+	margin-top: 15px;
+	margin-bottom: 20px;
+	height:80vh;
+}
+
+#menu-tile, #map-tile {
+  height: 250px;
+  width: 100%;
+  position: relative;
+  border: 2px solid #3F0C1F;
+  overflow: hidden;
+}
+
+#menu-tile{
+  margin-top: 40px;
+  background: url('../Images/menu1.jpg') no-repeat;
+  background-position: center;
+
+}
+
+#map-tile {
+	margin-top: 10px;
+}
+
+
+
+#m1, #m2, #m3 {
+
+  height: 270px;
+  width: 100%;
+  margin-bottom: 15px;
+  text-align: center;
+  
+  overflow: hidden;
+}
+#title_main{
+  margin-top: 130px;
+  font-family: 'Lora', serif;
+  text-align: center;
+  text-shadow: 1px 1px 1px #222;
+  color:  #f69640;
+  font-size: 3.3vw;
+}
+
+#main{
+  margin-top: 30px;
+  font-family: 'Lora', serif;
+  text-align: center;
+  text-shadow: 1px 1px 1px #222;
+  color:  #f69640;
+  font-size: 3.3vw;
+}
+
+#p2{
+  color:#000000;
+  font-size: 2vw;
+  text-align: center;
+  margin: 10px 10px 10px 10px;
+  list-style-type: none;
+}
+
+#p3{
+  color:#000000;
+  font-size: 2vw;
+  text-align: left;
+  margin: 10px 10px 10px 10px;
+  list-style-type: none;
+  padding-left: 0;
+}
+
+#price{
+  color:#000000;
+  float:right;
+  font-size: 2.3vw;
+  text-align: right;
+  margin-top: 80px;
+  width: 20%;
+}
+
+#carta_p{
+  color:#000000;
+  float:right;
+  font-size: 2.3vw;
+  text-align: right;
+  width: 20%;
+  margin-bottom: 15px;
+  
+
+}
+
+
+
+#social{
+  float:right;
+}
+
+
+
+
+}
+/*====================*/
+/*=== Other Styles ===*/
+/*====================*/
+.clear {
+	clear:both;
+}
