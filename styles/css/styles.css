@@ -826,6 +826,14 @@ body{
   margin-top: 80px;
   width: 20%;
 }
+	
+#note{
+  font-size:1.8vw;
+  text-align: center;
+  margin-left: 50px;
+  
+
+}
 
 #carta_p{
   color:#000000;
@@ -837,6 +845,7 @@ body{
   
 
 }
+	
 
 #contenido{
  width:100%;
@@ -862,7 +871,7 @@ body{
   width:90%;
   position: static;
   margin-left: 0px;
-  margin-right: 0px;
+  margin-right: 30px;
   margin-top: 0px;
 
 }
