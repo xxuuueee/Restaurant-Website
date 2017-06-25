@@ -861,8 +861,8 @@ body{
   clear;
   width:90%;
   position: static;
-  margin-left: -40px;
-  margin-right: 30px;
+  margin-left: 0px;
+  margin-right: 0px;
   margin-top: 0px;
 
 }
