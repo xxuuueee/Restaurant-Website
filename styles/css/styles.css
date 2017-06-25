@@ -862,7 +862,7 @@ body{
   width:90%;
   position: static;
   margin-left: -40px;
-  margin-right: 45px;
+  margin-right: 30px;
   margin-top: 0px;
 
 }
@@ -870,7 +870,7 @@ body{
 #map iframe{
   width:10;
   height:10;
-  margin-left: 0px;
+  
 }
 
 .panel-footer{
