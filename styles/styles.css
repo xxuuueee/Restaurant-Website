@@ -82,20 +82,7 @@ html, body{
   font-size: 1.8em;
 }
 
-#phone {
-  margin-top: .3%;
-}
 
-#phone a { /* Phone number */
-  text-align: right;
-  padding-bottom: 0;
-}
-
-#phone div { /* We Deliver */
-  color: #61122f;
-  text-align: right;
-  padding-right: 15px;
-}
 
 .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
   border: 1px solid #61122f;
@@ -114,6 +101,7 @@ html, body{
   min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
+
 }
 
 .dropdown-menu a{
@@ -180,7 +168,7 @@ html, body{
 .active {
 	
     height: 80vh;
-    background-size: contain;
+    background-size: 100% 100%;
     background-repeat: no-repeat;
 }
 
@@ -261,6 +249,9 @@ html, body{
   opacity: .8;
 }
 
+#title_main a:hover, #title_main a:focus {
+  text-decoration: none;
+}
 
 #title_main{
   margin-top: 12%;
@@ -746,13 +737,13 @@ html, body{
   background: url('../Images/salon_bright_blur_cropped.jpg');
   border-radius: 0;
     border: 0;
-    height: 15%;
+    height: 19%;
     margin-bottom: 2%;
   
 }
 
 	#brand{
-		width:98%;
+		width:100%;
 
 	}
 	
@@ -786,7 +777,7 @@ html, body{
 
   #nav-list{
   
-  margin-top: 1%; 
+  margin-top: 2%; 
 }
 
 	#nav-list a span {
@@ -988,7 +979,7 @@ html, body{
   background: url('../Images/salon_bright_blur_cropped.jpg');
   border-radius: 0;
     border: 0;
-    height: 20%;
+    height: 25%;
     margin-bottom: 2%;
   
 }
@@ -1035,7 +1026,7 @@ html, body{
     font-size: 1.5em;
     display: block;
     margin: 100px 20px 0px 20px;
-    margin-top: 22%;
+    margin-top: 33%;
     padding: 10px;
     border: 2px solid #fff;
     background: url('../Images/salon_bright_blur_cropped.jpg');
@@ -1193,7 +1184,7 @@ html, body{
   background: url('../Images/salon_bright_blur_cropped.jpg');
   border-radius: 0;
     border: 0;
-    height: 18%;
+    height: 22%;
     margin-bottom: 4%;
   
 }
@@ -1240,7 +1231,7 @@ html, body{
     font-size: 1.5em;
     display: block;
     margin: 100px 20px 0px 20px;
-    margin-top: 35%;
+    margin-top: 38%;
     padding: 10px;
     border: 2px solid #fff;
     background: url('../Images/salon_bright_blur_cropped.jpg');
